@@ -6,34 +6,18 @@
     "pt_BR": "My awesome app description!",
     "en": "My awesome app description!"
   },
-  "website": "https://example.com",
-  "signup_url": "https://example.com/signup",
+  "website": "https://gdigital.com.br/",
+  "signup_url": "https://gdigital.com.br/pagina-botao-cadastre/",
   "api_base_uri": {
     "production": {
-      "uri": "https://api.example.com",
-      "label": "Produção",
+      "uri": "http://testespark.gpages.com.br/api/lead/index.php",
+      "label": "testespark",
       "default": true
     }
   },
-  "authentication": {
-    "type": "basic_auth",
-    "fields": [
-      {
-        "name": "api_key",
-        "label": "API key",
-        "mapping": "username",
-        "type": "text"
-      },
-      {
-        "name": "api_secret",
-        "label": "API secret",
-        "mapping": "password",
-        "type": "password"
-      }
-    ],
-    "ping_request": {
-      "method": "/ping",
-      "params": { "limit": 1 }
-    }
-  }
+  "authentication": { 
+  "type": "no_auth"
+}
+
+
 }
