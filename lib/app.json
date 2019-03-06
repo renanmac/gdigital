@@ -29,8 +29,17 @@
         "label": "Token",
         "type": "text"        
       }
-    ]
+    ],
+    "ping_request": {
+      "method_name": "/invoices",
+      "params": {"limit": 1}
+    },
+    "status":{
+      "field": "msg",
+      "value": "sucesso"
+
   }
 
 
+}
 }
