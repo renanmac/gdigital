@@ -9,49 +9,7 @@
     "en": "Create lead"
   },
   "action_fields": {
-    "fields": [
-        {
-            "key": "ID",
-            "name": { "pt_BR": "Seu ID", "en": "your ID" },
-            "description": {
-                "pt_BR": "Seu ID",
-                "en": "Your iD"
-            },
-            "label": {
-              "pt_BR": "Seu ID",
-              "en": "Your ID"
-            },
-            "placeholder": {
-              "pt_BR": "9999",
-              "en": "9999"
-            },
-            "required": true,
-            "visible": true,
-            "advanced": false,
-            "field_type": "custom",
-            "data_type": "integer",
-        },
-        {
-            "key": "token",
-            "name": { "pt_BR": "Seu token", "en": "Your token" },
-            "description": {
-                "pt_BR": "Seu token",
-                "en": "Your token"
-            },
-            "label": {
-              "pt_BR": "Seu token",
-              "en": "Your token"
-            },
-            "placeholder": {
-              "pt_BR": "8de7d45999b98fd8e3bfd31a995dd70a",
-              "en": "8de7d45999b98fd8e3bfd31a995dd70a"
-            },
-            "required": true,
-            "visible": true,
-            "advanced": false,
-            "field_type": "custom",
-            "data_type": "string",
-        },
+    "fields": [        
         {
             "key": "acao",
             "name": { "pt_BR": "acao", "en": "action" },
@@ -105,7 +63,7 @@
     ]
   },
   "request": {
-    "method_name": "?",
+    "method_name": "?id={{id}}&tk={{tk}}",
     "verb": "post",
     "json_api": true,
     "error_fields": ["erro"]    
