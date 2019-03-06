@@ -12,6 +12,7 @@ npm install
 ```sh
 npm test
 ```
+### done
 
 ### Test with mocha debug in command line
 How to:
