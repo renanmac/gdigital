@@ -14,8 +14,8 @@
             "key": "api_origem",
             "name": { "pt_BR": "api_origem", "en": "api_origem" },
             "description": {
-                "pt_BR": "Ação",
-                "en": "Action"
+                "pt_BR": "api_origem",
+                "en": "api_origem"
             },
             "required": true,
             "visible": false,

@@ -10,8 +10,8 @@
   "signup_url": "https://gdigital.com.br/pagina-botao-cadastre/",
   "api_base_uri": {
     "production": {
-      "uri": "http://testespark.gpages.com.br/api/lead/index.php",
-      "label": "testespark",
+      "uri": "gpages.com.br/api/lead/index.php",
+      "label": "uri_api",
       "default": true
     }
   },
