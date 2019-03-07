@@ -9,7 +9,20 @@
     "en": "Create lead"
   },
   "action_fields": {
-    "fields": [        
+    "fields": [   
+        {
+            "key": "api_origem",
+            "name": { "pt_BR": "api_origem", "en": "api_origem" },
+            "description": {
+                "pt_BR": "Ação",
+                "en": "Action"
+            },
+            "required": true,
+            "visible": false,
+            "field_type": "custom",
+            "data_type": "string",
+            "default": "pluga"
+        },     
         {
             "key": "acao",
             "name": { "pt_BR": "acao", "en": "action" },
