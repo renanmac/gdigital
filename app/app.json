@@ -17,7 +17,6 @@
   },
   "authentication": {
     "type": "pass_through_query_string",
-    "headers": {"Authorization": "Bearer 8de7d45999b98fd8e3bfd31acb5dd70aa"},
     "fields": [
       {
         "name": "id",
@@ -39,7 +38,5 @@
       "value": "sucesso"
 
   }
-
-
 }
 }
