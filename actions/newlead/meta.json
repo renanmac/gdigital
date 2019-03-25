@@ -1,0 +1,84 @@
+{
+  "name": {
+	"pt_BR": "Criar lead",
+	"en": "Create lead"
+  },
+  "action_key": "new_lead",
+  "description": {
+	"pt_BR": "Criar lead",
+	"en": "Create lead"
+  },
+  "action_fields": {
+	"fields": [   
+		{
+			"key": "api_origem",
+			"name": { "pt_BR": "api_origem", "en": "api_origem" },
+			"description": {
+				"pt_BR": "api_origem",
+				"en": "api_origem"
+			},
+			"required": true,
+			"visible": false,
+			"field_type": "custom",
+			"data_type": "string",
+			"default": "pluga"
+		},     
+		{
+			"key": "acao",
+			"name": { "pt_BR": "acao", "en": "action" },
+			"description": {
+				"pt_BR": "Ação",
+				"en": "Action"
+			},
+			"required": true,
+			"visible": false,
+			"field_type": "custom",
+			"data_type": "string",
+			"default": "cadastrar"
+		},
+		{
+			"key": "inscricao_lista",
+			"name": { "pt_BR": "inscricao_lista", "en": "list_subscribe" },
+			"description": {
+				"pt_BR": "inscricao_lista",
+				"en": "inscricao_lista"
+			},
+			"required": true,
+			"visible": false,
+			"field_type": "custom",
+			"data_type": "boolean",
+			"default" : true 
+		},
+		{
+			"key": "id_form",
+			"name": { "pt_BR": "ID do Formulario", "en": "Form ID" },
+			"description": {
+				"pt_BR": "Id do Formulario",
+				"en": "Form ID"
+			},
+			"required": true,
+			"visible": true,
+			"field_type": "custom",
+			"data_type": "integer"
+		},
+		{
+			"key": "email",
+			"name": { "pt_BR": "E-mail", "en": "E-mail" },
+			"description": {
+				"pt_BR": "E-mail",
+				"en": "E-mail."
+			},
+			"required": true,
+			"visible": true,
+			"field_type": "custom",
+			"data_type": "email"
+		}
+	]
+  },
+  "request": {
+	"method_name": "?id={{id}}&tk={{tk}}",
+	"verb": "post",
+	"json_api": true,
+	"error_fields": ["erro"]    
+  }
+}
