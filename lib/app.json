@@ -1,39 +1,41 @@
 {
   "app_id": "gdigital",
   "name": "G Digital",
-  "color": "#000000",
+  "color": "#FFFFFF",
   "description": {
-    "pt_BR": "My awesome app description!",
-    "en": "My awesome app description!"
+    "pt_BR": "G Digital",
+    "en": "G Digital"
   },
-  "website": "https://example.com",
-  "signup_url": "https://example.com/signup",
+  "website": "https://gdigital.com.br/",
+  "signup_url": "https://gdigital.com.br/pagina-botao-cadastre/",
   "api_base_uri": {
     "production": {
-      "uri": "https://api.example.com",
+      "uri": "https://gpages.com.br/api/lead/index.php",
       "label": "Produção",
       "default": true
     }
   },
   "authentication": {
-    "type": "basic_auth",
+    "type": "pass_through_query_string",
     "fields": [
       {
-        "name": "api_key",
-        "label": "API key",
-        "mapping": "username",
+        "name": "id",
+        "label": "ID",
         "type": "text"
       },
       {
-        "name": "api_secret",
-        "label": "API secret",
-        "mapping": "password",
-        "type": "password"
+        "name": "tk",
+        "label": "Token",
+        "type": "text"
       }
     ],
     "ping_request": {
-      "method": "/ping",
+      "method_name": "/invoices",
       "params": { "limit": 1 }
+    },
+    "status":{
+      "field": "msg",
+      "value": "sucesso"
     }
   }
 }
