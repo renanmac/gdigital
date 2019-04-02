@@ -13,13 +13,17 @@
         "key": "id_form",
         "name": { "pt_BR": "ID do Formulario", "en": "Form ID" },
         "description": {
-          "pt_BR": "Id do Formulario",
-          "en": "Form ID"
+          "pt_BR": "Id do Formulario que será associado ao Lead",
+          "en": "Form thID"
         },
         "required": true,
         "visible": true,
-        "field_type": "custom",
-        "data_type": "integer"
+        "field_type": "dropdown",
+        "data_type": "integer",
+        "list":{
+          "type": "remote",
+          "helper_method":"id_form"
+        }
       },
       {
         "key": "email",
@@ -32,7 +36,32 @@
         "visible": true,
         "field_type": "custom",
         "data_type": "email"
-      }
+      },
+      {
+        "key": "name",
+        "name": { "pt_BR": "Nome do Lead", "en": "Lead name" },
+        "description": {
+          "pt_BR": "E-mail",
+          "en": "E-mail."
+        },
+        "required": true,
+        "visible": true,
+        "field_type": "custom",
+        "data_type": "string"
+      },
+      {
+        "key": "phone",
+        "name": { "pt_BR": "Telefone de contato", "en": "Contact phone" },
+        "description": {
+          "pt_BR": "E-mail",
+          "en": "E-mail."
+        },
+        "required": true,
+        "visible": true,
+        "field_type": "custom",
+        "data_type": "string"
+      },
+
     ]
   }
 }

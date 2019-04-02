@@ -1,0 +1,23 @@
+{
+  "name": "ID do formulario",
+  "helper_method_key": "id_form",
+  "requests": [
+    {
+      "method_name": "formularios/index-form.php",
+      "params" : {
+        "acao": "pagina",
+        "status": "publicado",
+        "pagina": "1",
+        "total_pagina": "-1"
+      },
+      "mapping": {
+        "label": {
+          "fields": ["post_title"]
+        },
+        "value": {
+          "field": "ID"
+        }
+      }
+    }
+  ]
+}
