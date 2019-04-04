@@ -1,4 +1,4 @@
-{
+  {
   "app_id": "gdigital",
   "name": "G Digital",
   "color": "#FFFFFF",
@@ -10,13 +10,13 @@
   "signup_url": "https://gdigital.com.br/pagina-botao-cadastre/",
   "api_base_uri": {
     "production": {
-      "uri": "https://gpages.com.br/api/lead/index.php",
+      "uri": "https://gpages.com.br/api/",
       "label": "Produção",
       "default": true
     }
   },
   "authentication": {
-    "type": "pass_through_query_string",
+    "type": "pass_through_query_string",  
     "fields": [
       {
         "name": "id",
@@ -30,7 +30,7 @@
       }
     ],
     "ping_request": {
-      "method_name": "/invoices",
+      "method_name": "verifica.php",
       "params": { "limit": 1 }
     },
     "status":{
@@ -39,3 +39,5 @@
     }
   }
 }
+
+//lead/index.php
