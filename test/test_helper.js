@@ -7,12 +7,15 @@
  */
 
 if (process.env.AXIOS_DEBUG) {
+	require('dotenv').config();
   const plg = require('pluga-plg');
   const axiosDebug = require('axios-debug');
   axiosDebug(plg.axios);
+
 }
 
 before(function (done) {
   console.log('Testing functions...');
+  console.log(process.env);
   done();
 });

@@ -14,7 +14,7 @@
         "name": { "pt_BR": "ID do Formulario", "en": "Form ID" },
         "description": {
           "pt_BR": "Id do Formulario que será associado ao Lead",
-          "en": "Form thID"
+          "en": "Form ID"
         },
         "required": true,
         "visible": true,
@@ -27,7 +27,7 @@
       },
       {
         "key": "email",
-        "name": { "pt_BR": "E-mail", "en": "E-mail" },
+        "nome": { "pt_BR": "E-mail", "en": "E-mail" },
         "description": {
           "pt_BR": "E-mail",
           "en": "E-mail."
@@ -41,10 +41,10 @@
         "key": "name",
         "name": { "pt_BR": "Nome do Lead", "en": "Lead name" },
         "description": {
-          "pt_BR": "E-mail",
-          "en": "E-mail."
+          "pt_BR": "Nome",
+          "en": "Name."
         },
-        "required": true,
+        "required": false,
         "visible": true,
         "field_type": "custom",
         "data_type": "string"
@@ -53,10 +53,10 @@
         "key": "phone",
         "name": { "pt_BR": "Telefone de contato", "en": "Contact phone" },
         "description": {
-          "pt_BR": "E-mail",
-          "en": "E-mail."
+          "pt_BR": "Telefone",
+          "en": "Phone"
         },
-        "required": true,
+        "required": false,
         "visible": true,
         "field_type": "custom",
         "data_type": "string"
