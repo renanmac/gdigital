@@ -1,16 +1,16 @@
 {
   "app_id": "gdigital",
   "name": "G Digital",
-  "color": "#FFFFFF",
+  "color": "#003B43",
   "description": {
-    "pt_BR": "G Digital",
-    "en": "G Digital"
+    "pt_BR": "A G Digital possui as 4 ferramentas chave de automação de marketing digital em um único lugar! 1° Crie páginas profissionais de alta conversão. 2º Se relacione com potenciais clientes através de e-mail marketing e ferramenta de automação de Whatsapp. 3º Identifique exatamente o momento que seu prospecto está pronto para comprar com nosso CRM, Lead Tracking e Pipeline. 4° VENDA MAIS!",
+    "en": "A G Digital possui as 4 ferramentas chave de automação de marketing digital em um único lugar! 1° Crie páginas profissionais de alta conversão. 2º Se relacione com potenciais clientes através de e-mail marketing e ferramenta de automação de Whatsapp. 3º Identifique exatamente o momento que seu prospecto está pronto para comprar com nosso CRM, Lead Tracking e Pipeline. 4° VENDA MAIS!"
   },
   "website": "https://gdigital.com.br/",
   "signup_url": "https://gdigital.com.br/pagina-botao-cadastre/",
   "api_base_uri": {
     "production": {
-      "uri": "https://testespark.gpages.com.br/api/pluga/",
+      "uri": "https://gpages.com.br/api/pluga/",
       "label": "Produção",
       "default": true
     }
@@ -19,7 +19,7 @@
     "type": "pass_through_querystring",
     "fields": [
       {
-        "name": "id",
+        "name": "ID",
         "label": "ID",
         "type": "string"
       },

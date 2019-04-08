@@ -50,7 +50,7 @@
         "data_type": "string"
       },
       {
-        "key": "phone",
+        "key": "telefone",
         "name": { "pt_BR": "Telefone de contato", "en": "Contact phone" },
         "description": {
           "pt_BR": "Telefone",
