@@ -1,18 +1,16 @@
-{
+  {
   "name": "ID do formulario",
   "helper_method_key": "id_form",
   "requests": [
     {
-      "method_name": "/formularios/index-form.php",
+      "method_name": "idform.php",
       "params" : {
-        "acao": "pagina",
-        "status": "publicado",
-        "pagina": "1",
-        "total_pagina": "-1"
+        "ID": "{event.auth.ID}",        
+        "tk": "{event.auth.tk}"        
       },
       "mapping": {
         "label": {
-          "fields": ["post_title"]
+          "fields": "post_title"
         },
         "value": {
           "field": "ID"
