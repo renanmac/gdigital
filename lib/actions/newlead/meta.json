@@ -27,7 +27,7 @@
       },
       {
         "key": "email",
-        "nome": { "pt_BR": "E-mail", "en": "E-mail" },
+        "name": { "pt_BR": "E-mail", "en": "E-mail" },
         "description": {
           "pt_BR": "E-mail",
           "en": "E-mail."
@@ -35,7 +35,7 @@
         "required": true,
         "visible": true,
         "field_type": "custom",
-        "data_type": "email"
+        "data_type": "string"
       },
       {
         "key": "name",
@@ -60,8 +60,7 @@
         "visible": true,
         "field_type": "custom",
         "data_type": "string"
-      },
-
+      }
     ]
   }
 }
