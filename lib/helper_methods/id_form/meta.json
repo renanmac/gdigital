@@ -1,16 +1,12 @@
-  {
+{
   "name": "ID do formulario",
   "helper_method_key": "id_form",
   "requests": [
     {
       "method_name": "idform.php",
-      "params" : {
-        "ID": "{event.auth.ID}",        
-        "tk": "{event.auth.tk}"        
-      },
       "mapping": {
         "label": {
-          "fields": "post_title"
+          "fields": ["post_title"]
         },
         "value": {
           "field": "ID"

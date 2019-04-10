@@ -16,7 +16,7 @@
     }
   },
   "authentication": {
-    "type": "pass_through_querystring",
+    "type": "pass_through_query_string",
     "fields": [
       {
         "name": "ID",
@@ -31,6 +31,6 @@
     ],
     "ping_request": {
       "method_name": "verifica.php"
-    }   
+    }
   }
 }
