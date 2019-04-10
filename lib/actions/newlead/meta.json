@@ -12,9 +12,14 @@
       {
         "key": "id_form",
         "name": { "pt_BR": "ID do Formulario", "en": "Form ID" },
+        "label": { "pt_BR": "ID do Formulario", "en": "Form ID" },
         "description": {
           "pt_BR": "Id do Formulario que será associado ao Lead",
           "en": "Form ID"
+        },
+        "placeholder": {
+          "pt_BR": "Selecione um formulário",
+          "en": "Select a form"
         },
         "required": true,
         "visible": true,
