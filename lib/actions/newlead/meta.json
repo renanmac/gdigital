@@ -43,7 +43,7 @@
         "data_type": "string"
       },
       {
-        "key": "name",
+        "key": "nome",
         "name": { "pt_BR": "Nome do Lead", "en": "Lead name" },
         "description": {
           "pt_BR": "Nome",
