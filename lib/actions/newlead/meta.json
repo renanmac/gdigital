@@ -65,6 +65,18 @@
         "visible": true,
         "field_type": "custom",
         "data_type": "string"
+      },
+      {
+        "key": "tag",
+        "name": { "pt_BR": "Tag personalizada", "en": "Custom tag" },
+        "description": {
+          "pt_BR": "Tag",
+          "en": "Tag"
+        },
+        "required": false,
+        "visible": true,
+        "field_type": "custom",
+        "data_type": "string"
       }
     ]
   }
